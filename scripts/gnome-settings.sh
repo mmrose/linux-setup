@@ -7,6 +7,10 @@ if [[ $REPLY =~ ^[YyJj]$ ]]; then
         sudo apt-get install -y gnome-weather
     fi
 
+    ### appearance
+    # dark mode
+    gsettings set org.gnome.desktop.interface color-scheme "prefer-dark"
+
     ### calendar
     gsettings set org.gnome.desktop.calendar show-weekdate true
 
