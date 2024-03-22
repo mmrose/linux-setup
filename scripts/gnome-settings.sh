@@ -16,7 +16,7 @@ if [[ $REPLY =~ ^[YyJj]$ ]]; then
     # only icons from the current monitor
     gsettings set org.gnome.shell.extensions.dash-to-dock isolate-monitors true
     # only contain icons from the workspace
-    gsettings set org.gnome.shell.extensions.dash-to-dock isolate-workspace true
+    gsettings set org.gnome.shell.extensions.dash-to-dock isolate-workspaces true
     # dock to the bottom
     gsettings set org.gnome.shell.extensions.dash-to-dock dock-position "BOTTOM"
     # do not use the full width
