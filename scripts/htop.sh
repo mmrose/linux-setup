@@ -9,6 +9,7 @@ if [[ $REPLY =~ ^[YyJj]$ ]]; then
 
     [ -e $HOME/.config/htop/htoprc ] && mv $HOME/.config/htop/htoprc $HOME/.config/htop/htoprc.`date +%Y%m%d-%H%M%S`.bak
 
+    mkdir -p $HOME/.config/htop
     cp $( dirname -- "${BASH_SOURCE[0]}" )/../.config/htop/htoprc $HOME/.config/htop/htoprc
 fi
 
