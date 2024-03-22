@@ -29,3 +29,4 @@ if [[ $REPLY =~ ^[YyJj]$ ]]; then
 
     ### weather
     gsettings set org.gnome.shell.weather automatic-location true 
+fi
